@@ -95,8 +95,8 @@ services:
     volumes:
       - /root/chromium/config:/config
     ports:
-      - 3010:3010   #可以根据需要更改为您喜欢的端口
-      - 3011:3011   #可以根据需要更改为您喜欢的端口
+      - 3010:3020   #可以根据需要更改为您喜欢的端口
+      - 3011:3021   #可以根据需要更改为您喜欢的端口
     shm_size: "1gb"
     restart: unless-stopped
 EOF
